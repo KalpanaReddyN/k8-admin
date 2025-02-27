@@ -4,7 +4,7 @@ data:
     - groups:
       - system:bootstrappers
       - system:nodes
-      rolearn: arn:aws:iam::315069654700:role/eksctl-expense-nodegroup-expense-NodeInstanceRole-s5iLLwbCscFS
+      rolearn: arn:aws:iam::211125410910:role/eksctl-expense-nodegroup-expense-NodeInstanceRole-o5VsEExr9wIu
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
     - groups:
@@ -13,10 +13,11 @@ data:
       username: ReddyN 
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2024-11-06T02:05:11Z"
+  creationTimestamp: "2025-02-27T19:50:35Z"
   name: aws-auth
   namespace: kube-system
-  uid: 7c41c4b2-f380-4fe0-91b7-6035fd37f2dc
+  uid: 480c2aaf-f2f7-4650-9ccc-1e5688b8917e
+
 
 
 
